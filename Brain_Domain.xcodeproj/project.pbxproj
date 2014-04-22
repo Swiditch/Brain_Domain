@@ -22,6 +22,9 @@
 		2278F10C18FC541B00F6FBD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2278F0EB18FC541B00F6FBD0 /* UIKit.framework */; };
 		2278F11418FC541B00F6FBD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2278F11218FC541B00F6FBD0 /* InfoPlist.strings */; };
 		2278F11618FC541B00F6FBD0 /* Brain_DomainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2278F11518FC541B00F6FBD0 /* Brain_DomainTests.m */; };
+		2278F12418FC599300F6FBD0 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2278F12318FC599300F6FBD0 /* PlayerViewController.m */; };
+		2278F12718FC5D9C00F6FBD0 /* ModeratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2278F12618FC5D9C00F6FBD0 /* ModeratorViewController.m */; };
+		2278F12A18FC5DA800F6FBD0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2278F12918FC5DA800F6FBD0 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,12 @@
 		2278F11118FC541B00F6FBD0 /* Brain_DomainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brain_DomainTests-Info.plist"; sourceTree = "<group>"; };
 		2278F11318FC541B00F6FBD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2278F11518FC541B00F6FBD0 /* Brain_DomainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brain_DomainTests.m; sourceTree = "<group>"; };
+		2278F12218FC599300F6FBD0 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerViewController.h; path = ../PlayerViewController.h; sourceTree = "<group>"; };
+		2278F12318FC599300F6FBD0 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerViewController.m; path = ../PlayerViewController.m; sourceTree = "<group>"; };
+		2278F12518FC5D9C00F6FBD0 /* ModeratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeratorViewController.h; sourceTree = "<group>"; };
+		2278F12618FC5D9C00F6FBD0 /* ModeratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeratorViewController.m; sourceTree = "<group>"; };
+		2278F12818FC5DA800F6FBD0 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2278F12918FC5DA800F6FBD0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				2278F0F618FC541B00F6FBD0 /* AppDelegate.h */,
+				2278F12218FC599300F6FBD0 /* PlayerViewController.h */,
+				2278F12318FC599300F6FBD0 /* PlayerViewController.m */,
+				2278F12518FC5D9C00F6FBD0 /* ModeratorViewController.h */,
+				2278F12618FC5D9C00F6FBD0 /* ModeratorViewController.m */,
+				2278F12818FC5DA800F6FBD0 /* SettingsViewController.h */,
+				2278F12918FC5DA800F6FBD0 /* SettingsViewController.m */,
 				2278F0F718FC541B00F6FBD0 /* AppDelegate.m */,
 				2278F0F918FC541B00F6FBD0 /* Main.storyboard */,
 				2278F0FC18FC541B00F6FBD0 /* FirstViewController.h */,
@@ -256,8 +271,11 @@
 			files = (
 				2278F10118FC541B00F6FBD0 /* SecondViewController.m in Sources */,
 				2278F0F818FC541B00F6FBD0 /* AppDelegate.m in Sources */,
+				2278F12718FC5D9C00F6FBD0 /* ModeratorViewController.m in Sources */,
 				2278F0FE18FC541B00F6FBD0 /* FirstViewController.m in Sources */,
 				2278F0F418FC541B00F6FBD0 /* main.m in Sources */,
+				2278F12418FC599300F6FBD0 /* PlayerViewController.m in Sources */,
+				2278F12A18FC5DA800F6FBD0 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

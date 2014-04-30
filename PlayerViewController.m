@@ -32,7 +32,7 @@
 - (IBAction)CheckC:(id)sender {
     self.buttonC.backgroundColor = [UIColor redColor];
 }
-//hi
+//hi jon
 
 
 - (void)viewDidLoad
